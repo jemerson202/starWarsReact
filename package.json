@@ -1,0 +1,30 @@
+{
+  "name": "starwarsreact",
+  "version": "1.0.0",
+  "description": "<img src=\"http://montanacodeschool.com/wp-content/uploads/2016/08/MCS_LOGO_v1-1.png\" width=\"200\" align=\"right\"/>",
+  "main": "webpack.config.client.js",
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-latest": "^6.24.1",
+    "webpack": "^2.4.1"
+  },
+  "scripts": {
+    "dev:client": "webpack --config webpack.config.client.js --watch",
+    "dev:server": "webpack --config webpack.config.server.js --watch",
+    "dev:start": "nodemon dist/server.js --watch dist/server.js"
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jemerson202/starWarsReact.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jemerson202/starWarsReact/issues"
+  },
+  "homepage": "https://github.com/jemerson202/starWarsReact#readme"
+}
